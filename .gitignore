@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+videos/
+
+# IDE caches
+.vs/
+.idea/
+
+# logs & binaries
+*.log
+*.zip
+*.db
+applicationhost.config
