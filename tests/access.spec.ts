@@ -1,3 +1,9 @@
+/**
+ * Algseis: külaline (mitte sisse loginud).
+ * Tegevus: avab avalikud lehed ja haldus.php.
+ * Ootus: avalikud lehed on /kellasepa/ all; haldus.php nõuab sisselogimist (redirect/deny).
+ */
+
 import { test, expect } from '@playwright/test';
 
 test.describe('Access control for guests', () => {

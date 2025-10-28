@@ -1,3 +1,9 @@
+/**
+ * Algseis: sisse loginud kasutaja.
+ * Tegevus: logout; seejärel katse avada haldus.php.
+ * Ootus: suunatakse login-lehele; kaitstud leht nõuab sisselogimist.
+ */
+
 import { test, expect } from '../fixtures/session';
 
 test.describe('Logout', () => {

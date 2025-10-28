@@ -1,3 +1,9 @@
+/**
+ * Algseis: kasutaja on edukalt sisse loginud.
+ * Tegevus: avab avalehe ja kontrollib tervitust.
+ * Ootus: tervitus on nähtav; leht laaditud /kellasepa/ all.
+ */
+
 import { test, expect } from '../fixtures/session';
 
 test.describe('Smoke after login', () => {

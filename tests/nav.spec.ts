@@ -1,3 +1,9 @@
+/**
+ * Algseis: sisse loginud kasutaja.
+ * Tegevus: avab avaleht/teenused/tellimused (kui olemas).
+ * Ootus: iga leht avaneb /kellasepa/ all; navigeerimine töötab.
+ */
+
 import { test, expect } from '../fixtures/session';
 
 test.describe('Navigation', () => {

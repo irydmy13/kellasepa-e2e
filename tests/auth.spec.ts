@@ -1,3 +1,9 @@
+/**
+ * Algseis: külaline on login-lehel.
+ * Tegevus: kehtivate andmetega sisselogimine või vale/tühjade väljadega katse.
+ * Ootus: õige login viib avalehele; vale/tühjad jätavad kasutaja login-lehele.
+ */
+
 import { test, expect } from '../fixtures/session';
 import { mustEnv } from '../src/utils/env';
 
